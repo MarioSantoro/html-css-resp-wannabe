@@ -149,14 +149,25 @@ img {
     .why-us .col-left ,
     .why-us .col-right
     {
-        width: 100%
+        width: 100%;
     }
 
     .col-left ,
     .col-right ,
-    .col
+    .col ,
+    img
     {
         margin-bottom: 1rem;
+    }
+
+    body{
+        background: linear-gradient(
+        to bottom,
+        #232946 0%,
+        #232946 60%,
+        #222222 60%,
+        #222222 100%
+      );
     }
  }
 
